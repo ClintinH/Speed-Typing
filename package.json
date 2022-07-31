@@ -1,0 +1,23 @@
+{
+  "name": "speed-typing",
+  "version": "1.0.0",
+  "description": "type as fast as you can",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist --no-scope-hoist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClintinH/Speed-Typing.git"
+  },
+  "author": "Clintin herholdt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClintinH/Speed-Typing/issues"
+  },
+  "homepage": "https://github.com/ClintinH/Speed-Typing#readme",
+  "dependencies": {
+    "parcel": "^2.6.2"
+  }
+}
