@@ -5,7 +5,7 @@ const timerContainer = document.querySelector(".timer");
 let myInterval;
 let quote;
 
-const RANDOM_QUOTE_API_URL = "http://api.quotable.io/random";
+const RANDOM_QUOTE_API_URL = "https://api.quotable.io/random";
 
 function getRandomQuote() {
   return fetch(RANDOM_QUOTE_API_URL)
